@@ -1,0 +1,17 @@
+.{
+  .name = "mem",
+  .version = "1.0.0",
+  .paths = .{
+    "LICENSE",
+    "README.md",
+    "build.zig",
+    "build.zig.zon",
+    "mem",
+  },
+  .dependencies = .{
+    .system = .{
+      .url = "https://github.com/thunderbrewhq/system/archive/refs/heads/master.zip",
+      .hash = "12206e229613120e4bd47aa175bf2d309b82c9756b8b78ab75ae1cbcda637074ca9f",
+    }
+  }
+}
