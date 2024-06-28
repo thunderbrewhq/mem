@@ -1,17 +1,12 @@
-.{
-  .name = "mem",
-  .version = "1.0.0",
-  .paths = .{
+.{ .name = "mem", .version = "1.0.0", .paths = .{
     "LICENSE",
     "README.md",
     "build.zig",
     "build.zig.zon",
     "mem",
-  },
-  .dependencies = .{
+}, .dependencies = .{
     .system = .{
-      .url = "https://github.com/thunderbrewhq/system/archive/refs/heads/master.zip",
-      .hash = "122029d6bfac7bd4f061d6044f78070e898f74f48ae3105eec8ada652166f3f217fb",
+        .url = "https://github.com/thunderbrewhq/system/archive/refs/heads/master.zip",
+        .hash = "1220d6a6e4e2f836c1c22eb128e6c74c773ea191bfbaac02601dcb5238c2b0874182",
     },
-  }
-}
+} }
