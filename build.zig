@@ -25,5 +25,7 @@ pub fn build(b: *std.Build) void {
     .flags = &.{"-std=c++11"}
   });
 
+  lib.installHeadersDirectory(b.path("mem"), "mem", .{ .include_extensions = &.{"hpp"} });
+
   b.installArtifact(lib);
 }
